@@ -29,12 +29,11 @@ import UIKit
     }*/
     
     func productFromBundle() -> [jsonObjects] {
-        print("1")
         
         
         guard let path = NSBundle.mainBundle().pathForResource("product", ofType: "json"),
             data = NSData(contentsOfFile: path) else {
-                print("2")
+               
                 
                 return jsonArray
         }
@@ -57,21 +56,21 @@ import UIKit
                  let description1 = productobject["description"]  as? String,
                  let sale1 = productobject["sale"]  as? String,
                  let saledetails1 = productobject["saledetails"]  as? String,
-                  let price1 = productobject["price"]  as? Float32,
+                  let price1 = productobject["price"]  as? String,
                  let imageName1 = productobject["image"] as? String,
                  let image = UIImage(named: imageName1) {
                         
-                 print(name1 + description1 + sale1)
+            //     print(name1 + description1 + sale1)
               let pro = jsonObjects(name: name1,  description: description1, image: image, sale: sale1, saledetails: saledetails1 , price: price1)
               jsonArray.append(pro)
                 }
             }
         }
         catch {
-            print("4")
+          
             return jsonArray
         }
-        print("5")
+       
         return jsonArray
     }
     

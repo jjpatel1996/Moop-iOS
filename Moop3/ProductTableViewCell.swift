@@ -13,22 +13,9 @@ class ProductTableViewCell: UITableViewCell {
     
     @IBOutlet weak var name: UILabel!
     
-    
-    
     @IBOutlet var images: UIImageView!
-    
-    
+   
     @IBOutlet weak var sale: UILabel!
-    
-    
-    @IBAction func Mdetails(sender: AnyObject) {
-        
-        
-        
-    }
-    
-    
-    
-    
-    
+   
+  
 }

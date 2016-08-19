@@ -10,12 +10,29 @@ import UIKit
 
 class DetailsView: UIViewController {
     
+    @IBOutlet var name: UINavigationBar!
+  
+   var selectedProduct: jsonObjects!
+    
+    @IBOutlet var pimage: UIImageView!
+    
+    @IBOutlet var psale: UILabel!
     
     
+    @IBOutlet var pdetails: UITextView!
     
-    var selectedProduct : String = ""
+    @IBOutlet var saledesription: UILabel!
     
     
-    
-    
+   
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        name.topItem!.title = selectedProduct.name2
+        pimage.image = selectedProduct.image2
+        psale.text = selectedProduct.sale2
+        pdetails.text = selectedProduct.description2
+        saledesription.text = selectedProduct.saledetails2
 }
+
+}
+

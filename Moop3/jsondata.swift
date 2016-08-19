@@ -15,10 +15,10 @@ class jsonObjects {
     let image2: UIImage
     let sale2: String
     let saledetails2: String
-    let price2: Float32
+    let price2: String
 
     
-    init(name: String, description: String, image: UIImage, sale: String , saledetails: String , price: Float32) {
+    init(name: String, description: String, image: UIImage, sale: String , saledetails: String , price: String) {
         self.name2 = name
         self.description2 = description
         self.image2 = image

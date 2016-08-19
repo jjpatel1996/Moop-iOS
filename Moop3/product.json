@@ -1,12 +1,37 @@
 {
   "product" : [
                {
-               "name" : "Pablo Picasso",
-               "description" : "Pablo Ruiz y Picasso (25 October 1881 – 8 April 1973), also known as Pablo Picasso, was a Spanish painter, sculptor, printmaker, ceramicist, stage designer, poet and playwright who spent most of his adult life in France.",
-               "image" : "product",
-               "sale" :  "50%",
-               "saledetails" : "One Per one Free",
-               "price" : 76
-                }
+               "name" : "Lenovo Vibe K5 Note (Gold, 32 GB)(With 4 GB RAM)",
+               "description" : "4 GB RAM | 32 GB ROM | Expandable Upto 128 GB   5.5 inch Full HD Display 13MP Primary Camera | 8MP Front 3500 mAh Li-Ion Polymer Batter |Android Marshmallow ",
+               "image" : "2",
+               "sale" :  "Exchange Offer",
+               "saledetails" : "upto 12000 off on exhchange ",
+               "price" : "₹13499"
+                },
+               {
+               "name" : "Redmi 3S Prime (Gold, 32 GB)",
+               "description" : "3 GB RAM | 32 GB ROM | Expandable Upto 128 GB 5 inch HD Display 13MP Primary Camera | 5MP Front  4100 mAh Li-Ion Polymer Battery Android Marshmallow.",
+               "image" : "3",
+               "sale" :  "Exchange Off",
+               "saledetails" : "Upto ₹7,000 off on exchange",
+               "price" : "₹7600"
+               },
+               {
+               "name" : "Apple iPhone 6 (Space Grey, 16 GB)",
+               "description" : "1 GB RAM | 16 GB ROM  4.7 inch HD Display  8MP Primary Camera | 1.2MP Front  Li-Ion Battery iOS",
+               "image" : "0",
+               "sale" :  "2% Off",
+               "saledetails" : "2 % On Retailer Price",
+               "price" : "₹38,499"
+               },
+               {
+               "name" : "Apple iPhone 6s (Space Grey, 16 GB)",
+               "description" : "2 GB RAM | 16 GB ROM  4.7 inch HD Display  8MP Primary Camera | 1.2MP Front  Li-Ion Battery iOS ",
+               "image" : "1",
+               "sale" :  "10% Off",
+               "saledetails" : "10 % On Retailer Price",
+               "price" : "₹48,499"
+               }
+               
                ]
 }

@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		69C3559E1D66EC4100907D11 /* jsondata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C3559D1D66EC4100907D11 /* jsondata.swift */; };
+		69C355AC1D670BF500907D11 /* iphone 6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 69C355A81D670BF500907D11 /* iphone 6.jpeg */; };
+		69C355AD1D670BF500907D11 /* iphone 6s.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 69C355A91D670BF500907D11 /* iphone 6s.jpeg */; };
+		69C355AE1D670BF500907D11 /* lenovo k5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 69C355AA1D670BF500907D11 /* lenovo k5.jpeg */; };
+		69C355AF1D670BF500907D11 /* mir redmi 3s.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 69C355AB1D670BF500907D11 /* mir redmi 3s.jpeg */; };
+		69C355EB1D67301200907D11 /* icon-person-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C355EA1D67301200907D11 /* icon-person-128.png */; };
 		69F80A041D64BE28001E7DFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F80A031D64BE28001E7DFD /* AppDelegate.swift */; };
 		69F80A061D64BE28001E7DFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F80A051D64BE28001E7DFD /* ViewController.swift */; };
 		69F80A091D64BE28001E7DFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69F80A071D64BE28001E7DFD /* Main.storyboard */; };
@@ -44,6 +49,11 @@
 
 /* Begin PBXFileReference section */
 		69C3559D1D66EC4100907D11 /* jsondata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jsondata.swift; sourceTree = "<group>"; };
+		69C355A81D670BF500907D11 /* iphone 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iphone 6.jpeg"; sourceTree = "<group>"; };
+		69C355A91D670BF500907D11 /* iphone 6s.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iphone 6s.jpeg"; sourceTree = "<group>"; };
+		69C355AA1D670BF500907D11 /* lenovo k5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lenovo k5.jpeg"; sourceTree = "<group>"; };
+		69C355AB1D670BF500907D11 /* mir redmi 3s.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mir redmi 3s.jpeg"; sourceTree = "<group>"; };
+		69C355EA1D67301200907D11 /* icon-person-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-person-128.png"; sourceTree = "<group>"; };
 		69F80A001D64BE28001E7DFD /* Moop3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moop3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69F80A031D64BE28001E7DFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69F80A051D64BE28001E7DFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +102,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69C3559F1D670B8D00907D11 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				69C355EA1D67301200907D11 /* icon-person-128.png */,
+				69F80A7B1D64C8CC001E7DFD /* product.png */,
+				69C355A81D670BF500907D11 /* iphone 6.jpeg */,
+				69C355A91D670BF500907D11 /* iphone 6s.jpeg */,
+				69C355AA1D670BF500907D11 /* lenovo k5.jpeg */,
+				69C355AB1D670BF500907D11 /* mir redmi 3s.jpeg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		69F809F71D64BE28001E7DFD = {
 			isa = PBXGroup;
 			children = (
@@ -119,9 +142,9 @@
 				69F80A0A1D64BE29001E7DFD /* Assets.xcassets */,
 				69F80A0F1D64BE29001E7DFD /* Info.plist */,
 				69F80A0C1D64BE29001E7DFD /* LaunchScreen.storyboard */,
-				69F80A7B1D64C8CC001E7DFD /* product.png */,
 				69F80A071D64BE28001E7DFD /* Main.storyboard */,
 				69F80A331D64C054001E7DFD /* ProductListViewController.swift */,
+				69C3559F1D670B8D00907D11 /* Images */,
 				69F80A351D64C0A2001E7DFD /* DetailsVIew.swift */,
 				69F80A3B1D64C15C001E7DFD /* ProductTableViewCell.swift */,
 				69F80A371D64C0CF001E7DFD /* Product.swift */,
@@ -269,7 +292,12 @@
 			files = (
 				69F80A0E1D64BE29001E7DFD /* LaunchScreen.storyboard in Resources */,
 				69F80A3A1D64C124001E7DFD /* product.json in Resources */,
+				69C355AF1D670BF500907D11 /* mir redmi 3s.jpeg in Resources */,
+				69C355EB1D67301200907D11 /* icon-person-128.png in Resources */,
+				69C355AD1D670BF500907D11 /* iphone 6s.jpeg in Resources */,
+				69C355AC1D670BF500907D11 /* iphone 6.jpeg in Resources */,
 				69F80A0B1D64BE29001E7DFD /* Assets.xcassets in Resources */,
+				69C355AE1D670BF500907D11 /* lenovo k5.jpeg in Resources */,
 				69F80A7C1D64C8CC001E7DFD /* product.png in Resources */,
 				69F80A091D64BE28001E7DFD /* Main.storyboard in Resources */,
 			);
